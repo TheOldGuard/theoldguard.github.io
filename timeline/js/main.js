@@ -57,6 +57,45 @@ jQuery(document).ready(function($){
             'They first laid out a plan. This plan was detailed in some areas, yet loose in others to satisfy the more creative and impulsive of them. Those who were more solitary were given whole areas or systems to create, while those who were more social tackled parts of the project together.',
             'The gods were far older and even moreso mature when their realm was complete. In honor of the father who had given them life, they named the world "Kalemin."'
           ]
+        },
+        {
+          title: 'Plants and beasts are born',
+          type: 'religious-event',
+          date: 'Date unknown',
+          content: [
+            'Though the gods were pleased with Kalemin\'s topography and material content, it seemed empty. So they conferred among themselves and concluded that there should be things which grow, and move to give it character. A few of them took the task of creating plants and beasts upon themselves, and together they filled the world with life.',
+            'Kalemiel watched his children with pride and judged them ready to begin their final task.'
+          ]
+        },
+        {
+          title: 'First intelligent races are made',
+          type: 'religious-event',
+          date: 'Date unknown',
+          content: [
+            'Kalemiel was most pleased to see how far his children had come since their first clumsy attempts at their own realms. He watched the sea teem with fish, and marvelled at the grace with which the birds soared in the sky. He delighted in the beasts of land and tree and deep in the earth, and the plants swaying in the breeze. Even the icy wastes of the north were full of life.',
+            'He gathered his sons and daughters together and posed a question to them: "What is missing?"',
+            'They sat silent for a moment, wondering what thing they had left out. They were many, so surely they couldn\'t have overlooked anything! Then one spoke up. "Father," he said, "when you were alone in the void, you made us. You gave us gifts and set us apart from that which you created before." He waved his hand toward Kalemin. "The plants and beasts are many and unique, but there are yet no creatures with the understanding to appreciate the world which we have made. That is what is missing."',
+            'The father of the gods was pleased and nodded.',
+            'And so they made the first intelligent creatures in a form similar to their own. It was a race with great potential for thought, planning, and creativity, for they gave of their own gifts for it to be so.'
+          ]
+        },
+        {
+          title: 'Kalemiel departs',
+          type: 'religious-event',
+          date: 'Date unknown',
+          content: [
+            'Shortly after the creation of intelligent life, Kalemiel left The Mantle and all in it behind, confidently entrusting his children with that which they had created. Some believe he gave up the last of his essence to imbue the mortals with cunning and wisdom. Others claim that he will return on the last day and judge the realms.',
+            'Though the stories vary wildly on how this came to be, or what became of him, all agree that he has been gone since the dawn of sentience.'
+          ]
+        },
+        {
+          title: 'The races emerge',
+          type: 'religious-event',
+          date: 'Date unknown',
+          content: [
+            'Over the course of an unknown length of time, this race spread across the lands of Kalemin. Some chose to reside deep within the forests, others chose to live upon the great mountains. Still others adapted to living beneath the waves, while yet others chose to live in the deep places below the earth. The gods, wishing to help their highest creations thrive, made changes to the forms of these disparate groups, fitting them to the environments in which they lived.',
+            'The gods were pleased.'
+          ]
         }
       ]
     }
