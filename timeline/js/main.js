@@ -21,7 +21,7 @@ jQuery(document).ready(function($){
           date: 'Date unknown'
         },
         {
-          title: 'First planes are formed',
+          title: 'Gods create the first planes',
           type: 'religious-event',
           date: 'Date unknown',
           content: [
@@ -30,7 +30,7 @@ jQuery(document).ready(function($){
           ]
         },
         {
-          title: 'Planes are refined',
+          title: 'Gods refine planes',
           type: 'religious-event',
           date: 'Date unknown',
           content: [
@@ -59,7 +59,7 @@ jQuery(document).ready(function($){
           ]
         },
         {
-          title: 'Plants and beasts are born',
+          title: 'Plants and animals populate the realm',
           type: 'religious-event',
           date: 'Date unknown',
           content: [
@@ -68,7 +68,7 @@ jQuery(document).ready(function($){
           ]
         },
         {
-          title: 'First intelligent races are made',
+          title: 'First sentient mortals are born',
           type: 'religious-event',
           date: 'Date unknown',
           content: [
@@ -89,12 +89,26 @@ jQuery(document).ready(function($){
           ]
         },
         {
-          title: 'The races emerge',
+          title: 'The races diverge',
           type: 'religious-event',
           date: 'Date unknown',
           content: [
             'Over the course of an unknown length of time, this race spread across the lands of Kalemin. Some chose to reside deep within the forests, others chose to live upon the great mountains. Still others adapted to living beneath the waves, while yet others chose to live in the deep places below the earth. The gods, wishing to help their highest creations thrive, made changes to the forms of these disparate groups, fitting them to the environments in which they lived.',
             'The gods were pleased.'
+          ]
+        }
+      ]
+    },
+    {
+      title: 'Age of the Divines',
+      description: "According to legends from this time, the gods once walked the earth alongside their mortal creations. Writing was only first used near the end of this age, so the dates are approximate at best. Much of what we know from this age comes from the oral histories of the Eldaani tribes, the peoples from whom elves are descended.",
+      blocks: [
+        {
+          title: 'Placeholder',
+          type: 'religious-event',
+          date: 'Year 7',
+          content: [
+            'To be filled in later'
           ]
         }
       ]
