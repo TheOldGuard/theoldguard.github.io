@@ -1,0 +1,43 @@
+<table class="popout">
+  <thead>
+    <!-- fix me -->
+    <tr [ngStyle]="{'background-color': month.getTitleColor()}">
+      <td colspan="5" >
+        {{ month.name }}
+      </td>
+    </tr>
+    <tr>
+      <td> Kethil </td>
+      <td> Ysren </td>
+      <td> Mel </td>
+      <td> Illd </td>
+      <td> Fiddan </td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="calendar-day" *ngFor="let day of month.weeks[0]"
+        [ngClass]="{'selected': today === month.getDayOffset(day)}">
+        <calendar-day [offset]="month.getDayOffset(day)" [day]="day"></calendar-day>
+      </td>
+    </tr>
+    <tr>
+      <td class="calendar-day" *ngFor="let day of month.weeks[1]"
+        [ngClass]="{'selected': today === month.getDayOffset(day)}">
+        <calendar-day [offset]="month.getDayOffset(day)" [day]="day"></calendar-day>
+      </td>
+    </tr>
+    <tr>
+      <td class="calendar-day" *ngFor="let day of month.weeks[2]"
+        [ngClass]="{'selected': today === month.getDayOffset(day)}">
+        <calendar-day [offset]="month.getDayOffset(day)" [day]="day"></calendar-day>
+      </td>
+    </tr>
+    <tr>
+      <td class="calendar-day" *ngFor="let day of month.weeks[3]"
+        [ngClass]="{'selected': today === month.getDayOffset(day)}">
+        <calendar-day [offset]="month.getDayOffset(day)" [day]="day"></calendar-day>
+      </td>
+    </tr>
+  </tbody>
+</table>

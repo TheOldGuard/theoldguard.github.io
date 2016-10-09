@@ -1,0 +1,140 @@
+@import './libs/reset.css';
+@import './libs/bootstrap/css/bootstrap.min.css';
+
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}
+
+/* Master Styles */
+h1 {
+  color: #369; 
+  font-family: Arial, Helvetica, sans-serif;   
+  font-size: 250%;
+}
+h2, h3 { 
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;   
+  font-weight: lighter;
+}
+body { 
+  margin: 0;
+  height: 100%;
+}
+body, input[text], button { 
+  color: #888; 
+  font-family: Arial, Helvetica, sans-serif; 
+}
+a {
+  cursor: pointer;
+  cursor: hand;
+}
+button {
+  font-family: Arial;
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  cursor: hand;
+}
+button:hover {
+  background-color: #cfd8dc;
+}
+button:disabled {
+  background-color: #eee;
+  color: #aaa; 
+  cursor: auto;
+}
+
+.items {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 24em;
+
+  li {
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    background-color: #EEE;
+    margin: .5em;
+    padding: .3em 0;
+    height: 1.6em;
+    border-radius: 4px;
+
+    &:hover {
+      
+      color: #607D8B;
+      background-color: #DDD;
+      left: .1em;
+    }
+
+    &.selected:hover {
+      background-color: #BBD8DC;
+      color: white;
+    }
+  }
+
+  .text {
+    position: relative;
+    top: -3px;
+  }
+
+  .badge {
+    display: inline-block;
+    font-size: small;
+    color: white;
+    padding: 0.8em 0.7em 0 0.7em;
+    background-color: #607D8B;
+    line-height: 1em;
+    position: relative;
+    left: -1px;
+    top: -4px;
+    height: 1.8em;
+    margin-right: .8em;
+    border-radius: 4px 0 0 4px;
+  }
+}
+
+* {
+  font-vamily: Arial, Helvetica, sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+app {
+  height: 100%;
+}
+
+#content {
+  padding-top: 70px;
+  background-color: #e9f0f5;
+  min-height: 100%;
+
+  h1 {
+    color: #444;
+  }
+
+  &:after {
+    /* clearfix */
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+}
+
+.popout {
+  background: white;
+  border-radius: 0.25em;
+  box-shadow: 0 3px 0 #d7e4ed;
+}
+
+em {
+  font-style: italic;
+}

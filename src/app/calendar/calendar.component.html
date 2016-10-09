@@ -1,0 +1,6 @@
+<div>
+  <h1 style="text-align:center;">
+    {{age}} year {{year}}
+  </h1>
+</div>
+<calendar-month class="popout" *ngFor="let month of months" [month]="month" [today]="offset"></calendar-month>

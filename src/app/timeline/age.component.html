@@ -1,0 +1,9 @@
+  <div class="age">
+    <div class="age-info">
+      <h2 class="age-title" (click)="logIt(age)"> {{ age.title }}</h2>
+      <p> {{ age.description }} </p>
+    </div>
+    <section class="cd-container cd-timeline">
+      <timeline-block class="cd-timeline-block" *ngFor="let block of age.blocks" [block]="block"></timeline-block>
+    </section> <!-- cd-timeline -->
+  </div>

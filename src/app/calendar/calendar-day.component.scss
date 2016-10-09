@@ -1,0 +1,20 @@
+calendar-day {
+  display: inline;
+  font-weight: bold;
+}
+
+.calendar-day {
+  min-width:30px;
+  vertical-align:top;
+  padding:10px;
+  font-size:30px;
+  border: 1px solid;
+
+  &.selected {
+    background-color: #aaf;
+  }
+
+  h5 {
+    font-weight: bold;
+  }
+}
