@@ -1,5 +1,7 @@
-<div class="cd-timeline-img" [ngClass]="block.type"></div> <!-- cd-timeline-img -->
-<div class="cd-timeline-content">
+<div class="cd-timeline-img"
+  [ngClass]="getClasses(true)"
+></div> <!-- cd-timeline-img -->
+<div class="cd-timeline-content" [ngClass]="getClasses()">
   <h2> {{ block.title }} </h2>
   <p *ngFor="let item of block.content">{{ item }}</p>
   <span class="cd-date">{{ block.date }}</span>
