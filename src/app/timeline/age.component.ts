@@ -32,7 +32,7 @@ export class AgeComponent implements AfterViewInit {
     getScrollOffset(): number {
         let doc = document.documentElement;
         let windowOffset = ( window.pageYOffset || doc.scrollTop ) - ( doc.clientTop || 0 );
-        return windowOffset + (window.innerHeight * 0.5);
+        return windowOffset + (window.innerHeight * 0.4);
     }
 
     handleScroll(): void {
